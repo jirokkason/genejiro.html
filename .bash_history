@@ -64,3 +64,18 @@ cd desktop/jiro/genejiro.html
 git add -A
 git commit -m"html_coding"
 get remote add origin(https://github.com/jirokkason/genejiro.html.git)
+cd /vagrant
+git add -A
+git commmit -m "html_coding"
+git commit -m"html_coding"
+git commit -m "ジロッカソンのHTML"
+get remote add origin
+git add -A
+git commit -m "genejiro.html"
+git remote -v
+ls
+cd genejiro
+git add -A
+git commit -m "comment"
+cd Vagrantfile
+ls
