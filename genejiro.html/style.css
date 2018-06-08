@@ -100,6 +100,14 @@ header hr {
 	float: right;
 }
 
+.share {
+	height: 150px;
+	background-image: url("img_kanin_kora.png");
+	background-size: 30%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
 a {
 	text-decoration: none;
 }
@@ -107,7 +115,15 @@ a {
 footer {
 	bottom: 0;
 	min-width: 960px;
-	height: 90px;
-	position: fixed;
-	z-index: 1;
+	height: 120px;
+}
+
+footer hr {
+	border-color: black;
+	border-width:1px 0 0 0;
+}
+
+.top {
+	text-align: center;
+
 }
