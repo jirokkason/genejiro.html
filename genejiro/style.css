@@ -37,24 +37,41 @@ header hr {
 	border-width:1px 0 0 0;
 }
 
-.contents {
+.contents_index {
+	height:1142px;
+}
+
+.contents_answer {
 	height:1300px;
+}
+
+.contents_archive {
+	height:1617px;
 }
 
 .page {
 	background-color: white;
 	padding: 100px 125px 0px 115px;
-	width:760px;
+	width: 800px;
 	height: 80%;
 	margin: 0 auto;
 }
 
-.page h2 {
+h2 {
 	text-align: center;
 	font-size: 50px;
 	background-color: white;
 	font-family: sans-serif;
 	line-height: 0px;
+}
+
+.head_text {
+	width: 100%;
+	margin: 0 0 30px;
+}
+
+.head_text h2 p {
+	text-align: center;
 }
 
 .image  {
@@ -75,6 +92,21 @@ header hr {
 textarea {
 	width: 600px;
 	height: 250px;
+}
+
+.timeline {
+	background-color:#3333FF;
+	height: 830px;
+	margin: 0 auto;
+	border: 15px solid #000;
+}
+
+.post {
+	margin:30px auto;
+	width: 699px;
+	height: 192px;
+	border: 3px dashed #000;
+	background-color: white;
 }
 
 .text p {
@@ -115,6 +147,10 @@ textarea {
 	font-family: sans-serif;
 }
 
+.button_archive {
+	margin-top: 50px;
+}
+
 .archive {
 	float: left;
 }
@@ -127,7 +163,23 @@ textarea {
 	float: right;
 }
 
+.menu {
+	text-align: center;
+}
+
+.regenerator_2 {
+	display: inline;
+}
+
 .share {
+	height: 150px;
+	background-image: url("img_kanin_kora.png");
+	background-size: 30%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.share_archive {
 	height: 150px;
 	background-image: url("img_kanin_kora.png");
 	background-size: 30%;
