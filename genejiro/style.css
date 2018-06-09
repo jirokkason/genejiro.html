@@ -225,3 +225,38 @@ footer hr {
 	text-align: center;
 
 }
+
+/*---tab-------*/
+
+.tabmenu li {
+	display: inline-block;
+	width: 120px;
+	height: 22px;
+	padding: 10px 10px 5px;
+	cursor: pointer;
+	background-color: #AECD69;
+	border-top-right-radius: 10px;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+}
+
+.tabmenu li .selected {
+	background-color: #fff;
+	color: #AECD6A;
+}
+
+.tab{
+	background-color: #fff;
+	/*height: 360px;*/
+	padding: 20px;
+}
+
+.tab .right {
+	display: none;
+}
+
+
+
+
+/*----------ta-b---------*/
